@@ -8,8 +8,8 @@ function App() {
       <img className='image' src="/logo.png" alt="A-icon"/>
       <nav>
         <ul>
-          <li className='text-sm no-underline'><a href="/">Home</a></li>
-          <li className='text-sm no-underline'><a href="/">Socials</a></li>
+          <li><a href="/">Home</a></li>
+          <li><a href="/">Socials</a></li>
         </ul>
       </nav>     
     </header>
