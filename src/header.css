@@ -15,3 +15,10 @@
 .image {
     width: 3em;
 }
+
+nav ul li {
+    display:inline-block;
+    list-style: none;
+    padding: 10%;
+
+}
