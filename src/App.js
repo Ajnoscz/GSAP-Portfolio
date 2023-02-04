@@ -1,9 +1,10 @@
 import './App.css';
+import './header.css'
 
 function App() {
   return (
     <>
-    <header className='flex content-between items-center pt-5 pb-5 pl-[10%] pr-[10%]'>
+    <header className='navbar'>
       <img src="/logo.png" alt="A-icon"/>
       <nav>
         <ul>
