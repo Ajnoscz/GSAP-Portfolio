@@ -17,8 +17,13 @@
 }
 
 nav ul li {
-    display:inline-block;
-    list-style: none;
+    display: inline-block;
+    list-style-type: none;
     padding: 10%;
 
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
 }
