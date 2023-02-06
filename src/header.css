@@ -13,17 +13,31 @@
 }
 
 .image {
-    width: 3em;
+    width: 5em;
 }
 
-nav ul li {
-    display: inline-block;
+.links {
+    display: flex;
     list-style-type: none;
-    padding: 10%;
 
 }
 
-nav ul li a {
+
+
+.links a {
     color: white;
     text-decoration: none;
+    margin: 0 2em;
+    padding: 10px;
+    font-size: 2em;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.links a:hover {
+    display: flex;
+    list-style-type: none;
+    border-radius: 20px;
+    background-color: rgba(0, 255, 255, 0.185) ;
+
 }
