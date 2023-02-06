@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  font-family: 'Hanalei Fill', cursive;
+  font-family: 'Montserrat', sans-serif;
   background-color: rgb(2, 19, 44);
   top: 0;
   left: 0;

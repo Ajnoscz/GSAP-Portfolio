@@ -25,6 +25,7 @@
 
 
 .links a {
+    display: flex;
     color: white;
     text-decoration: none;
     margin: 0 2em;

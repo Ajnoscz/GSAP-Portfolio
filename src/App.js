@@ -7,13 +7,14 @@ function App() {
 
   useEffect(() => {
   
-   gsap.fromTo("#text", {y: 100, opacity: 0}, {y:0, opacity:1, stagger: 0.5});
+   gsap.fromTo("#text", {y: 100, opacity: 0}, {y:0, opacity:1, stagger: 0.5, duration: 1});
+   gsap.fromTo("#logo", {y: -200}, {y:0, duration: 1});
   })
   
   return (
     <>
     <header className='navbar'>
-      <img className='image' src="/logo.png" alt="A-icon"/>
+      <img id='logo' className='image' src="/logo.png" alt="A-icon"/>
       <nav>
         <ul className='links'>
           <li id='text'><a href="/">Home</a></li>
